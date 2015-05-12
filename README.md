@@ -1,4 +1,4 @@
-cifs-nativex Cookbook
+cifs-simplyadrian Cookbook
 =====================
 Just (at least initially) a bare-bones cookbook to install the
 "Common Internet File System" (CIFS) (formerly known as
@@ -10,17 +10,17 @@ https://en.wikipedia.org/wiki/CIFS
 
 Usage
 -----
-Just include `cifs-nativex` in your node's `run_list`:
+Just include `cifs-simplyadrian` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[cifs-nativex]"
+    "recipe[cifs-simplyadrian]"
   ]
 }
 ```
 
 License and Authors
 -------------------
-Authors: Brett Stime
+Authors: Adrian Herrera
